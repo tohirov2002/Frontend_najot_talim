@@ -1,0 +1,326 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+@media only screen and (max-width: 869px) {
+    .for{
+        margin-left: 50px;
+    }
+}
+.ham-btn{
+    display: none;
+}
+@media only screen and (max-width: 800px) {
+    .text{
+        display: none;
+    }
+    
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-text{
+        font-size: 44px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .ham-btn{
+        display: block;
+        margin-left: 5px;
+    }
+    .btn{
+        display: none;
+   }
+   .header-text{
+    font-size: 28px;
+}
+.header-text1{
+    margin-top: 10px;
+}
+}
+@media only screen and (max-width: 821px) {
+    .hero{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 30px;
+    }
+    .hero-top{
+        margin-top: -150px;
+    }
+    .header-text{
+        padding-bottom: 80px;
+    }
+    .title{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 1080px) {
+    .hero-img{
+        max-width: 300px;
+        height: 300px;
+    }
+    .hero-title{
+        font-size: 18px;
+        max-width: 250px;
+    }
+}
+@media only screen and (max-width: 928px) {
+    .hero-img{
+        max-width: 250px;
+        height: 250px;
+    }
+    .hero-title{
+        font-size: 16px;
+        max-width: 200px;
+    }
+}
+@media only screen and (max-width: 780px) {
+    .hero-img{
+        max-width: 200px;
+        height: 200px;
+    }
+    .hero-title{
+        font-size: 14px;
+        max-width: 150px;
+    }
+    .icon-text{
+        font-size: 11px;
+    }
+    .icon{
+        width: 15opx;
+        height: 15px;
+    }
+}
+@media only screen and (max-width: 685px) {
+    .hero-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .hero-img{
+        max-width: 400px;
+        height: 400px;
+    }
+    .hero-title{
+        font-size: 20px;
+        max-width: 350px;
+    }
+    .icon-text{
+        font-size: 14px;
+    }
+    .icon{
+        width: 15opx;
+        height: 15px;
+    }
+   
+}
+@media only screen and (max-width: 395px) {
+    .hero-img{
+        max-width: 250px;
+        height: 250px;
+    }
+    .hero-title{
+        font-size: 16px;
+        max-width: 250px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 922px) {
+    .logo-img{
+       max-width: 200px;
+       height: 200px;  
+       margin-top: -40px;  
+    }
+    .logo-text{
+        max-width: 200px;
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 685px) {
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 60px;
+    }
+    .logo-img{
+        max-width: 300px;
+        height: 300px;  
+        margin-top: -57px;  
+     }
+     .logo-text{
+         max-width: 300px;
+         font-size: 26px;
+     }
+}
+@media only screen and (max-width: 512px) {
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 60px;
+    }
+    .logo-img{
+        max-width: 200px;
+        height: 200px;  
+        margin-top: -40px;  
+     }
+     .logo-text{
+         max-width: 200px;
+         font-size: 20px;
+     }
+     .about{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+     }
+}
+@media only screen and (max-width: 385px) {
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 60px;
+    }
+    .logo-img{
+        max-width: 150px;
+        height: 150px;  
+        margin-top: -30px;  
+     }
+     .logo-text{
+         max-width: 200px;
+         font-size: 16px;
+         padding-left: 7px;
+     }
+     .texts{
+        padding-left: 8px;
+     }
+}
+@media only screen and (max-width: 765px) {
+    .footer-text{
+        padding-right: 20px;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .footer{
+        gap: 15px;
+        display: flex;
+        align-items: start;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    .footer-text{
+        font-size: 24px;
+    }
+}
+@media only screen and (max-width: 414px) {
+    .footer-text{
+        font-size: 16px;
+    }   
+}
+@media only screen and (max-width: 942px) {
+    .panel{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .panel1{
+        margin-top: 12px;
+    }
+    .box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 739px) {
+    .panel2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .panel1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .qabul{
+        padding-left: 0px;
+    }
+    .wrap-text{
+        font-size: 20px;
+        text-align: center;
+    }
+    .wrapper-btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .wrap-btn{
+        margin-right: 0px;
+    }
+    .title1{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 504px) {
+    .bell{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .bell-right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.hamburger{
+    display: none;
+}
+@media only screen and (max-width: 485px) {
+    .bell-right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        /* flex-direction: column; */
+    }
+    .hero-wrap{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+}
